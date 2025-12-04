@@ -4,7 +4,7 @@ I'm curating a portfolio of data science projects I've worked on or am currently
 # SQL
 Before my bootcamp, SQL was on my radar as important for databases and as a coding skill. What I didn't expect was its elegance, which really appealed to my mathematical sensibilities over 20 years after graduation... I really enjoyed the logic, designing database structures, and putting together the puzzle of an efficient query.
 
-![Ornate, multi-level bookstore with carved wooden railings, tall bookshelves filled with books, warm lighting from hanging lanterns, and a grand central staircase leading between floors. The tonal palette is warm and autumnal.](Stöwer_Titanic.jpg?raw=true)
+![Ornate, multi-level bookstore with carved wooden railings, tall bookshelves filled with books, warm lighting from hanging lanterns, and a grand central staircase leading between floors. The tonal palette is warm and autumnal.](https://github.com/SarennahL-C/pf-ebookstore/blob/ba994ab4e9e3d4d90c4cce62441b1a3f137782af/SQL%20feedback.jpg?raw=true)
 
 # ebookstore
 This SQLite project was a bootcamp task to:
