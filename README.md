@@ -2,19 +2,22 @@
 I'm curating a portfolio of data science projects I've worked on or am currently working on. Some are for fun and curiosity; others came from a data science bootcamp.
 
 # SQL
-Before my bootcamp, SQL was in my consciousness as something important for databases and an important coding skill. What I didn't expect was its elegance, which really appealed to my mathematical sensibilities over 20 years after graduation... I really enjoyed the logic, designing the structure of databases and putting together the puzzle of an efficient query.
+Before my bootcamp, SQL was on my radar as important for databases and as a coding skill. What I didn't expect was its elegance, which really appealed to my mathematical sensibilities over 20 years after graduation... I really enjoyed the logic, designing database structures, and putting together the puzzle of an efficient query.
+
+![Ornate, multi-level bookstore with carved wooden railings, tall bookshelves filled with books, warm lighting from hanging lanterns, and a grand central staircase leading between floors. The tonal palette is warm and autumnal.](Stöwer_Titanic.jpg?raw=true)
 
 # ebookstore
 This SQLite project was a bootcamp task to:
 
 > ... create a program for a bookstore. The program should allow the clerk to enter data about new books into the database, update book information, delete books from the database, and search to check the availability of books.
 
+In my solution, I've extended the brief to allow for authors writing multiple books and to save the inventory for a permanent record. 
 
-Write something else here
-
-The reviewer's feedback on my project especially highlighted my detailed treatment of the missing age values and the comprehensive nature of my work. View a screenshot of the feedback [here](https://github.com/SarennahL-C/pf-titanic/blob/43051997789de3818f7b4399fa02fa4345319dc0/Titanic%20feedback.jpg).
+If the clerk enters a book by an author already in the system, this is recognised, and the steps to enter author information are skipped. If the clerk amends the details of an author, the changes propagate to all the relevant records. While there is defensive coding elsewhere to ensure proper inputs, there isn't an enforced structure for author names, meaning that Iain Banks and Iain M. Banks are both possible and are treated as separate authors. This is intentional to allow for author choices such as Iain (M.) Banks using the M. to signify his science fiction work, distinct from his literary fiction.
 
 This project showcases SQL coding using SQLite within Python. At this point, it was the most complex piece of Python I'd written, and it remains my longest .py file.
+
+The reviewer's feedback on my project noted that my solution is an extensive and seamless interpretation of the brief. I also had a gentle nudge to up my PEP8 game, which I took to heart and now follow closely. View a screenshot of the feedback [here](https://github.com/SarennahL-C/pf-titanic/blob/43051997789de3818f7b4399fa02fa4345319dc0/Titanic%20feedback.jpg).
 
 #### Requirements
 Install the requirements for Python 3 using `pip install -r requirements.txt`.
