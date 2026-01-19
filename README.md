@@ -6,7 +6,7 @@ I was genuinely excited by the logical elegance of SQL and how database design d
 
 ![Ornate, multi-level bookstore with carved wooden railings, tall bookshelves filled with books, warm lighting from hanging lanterns, and a grand central staircase leading between floors. The tonal palette is warm and autumnal.](https://github.com/SarennahL-C/pf-ebookstore/blob/a24197d74648de19b3aa32d273e0fa84aad1bd6e/bookstore.jpg?raw=true) 
 
-Image cropped from Ivo Rainha [https://www.pexels.com/photo/top-view-of-library-with-red-stairs-1261180/].
+Image cropped from Ivo Rainha https://www.pexels.com/photo/top-view-of-library-with-red-stairs-1261180/.
 
 ### What's in this repository
 - **Python program:** `shelf_track_dec25.py`  
