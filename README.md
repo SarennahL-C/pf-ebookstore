@@ -11,7 +11,6 @@ Image cropped from Ivo Rainha https://www.pexels.com/photo/top-view-of-library-w
 ### What's in this repository
 - **Python program:** `shelf_track_dec25.py`  
 - **Images:** visuals and reviewer feedback  
-- **Requirements:** Python dependencies (`requirements.txt`)
 
 ### Project Context
 
@@ -62,7 +61,7 @@ My [reviewer](./SQL%20feedback.jpg) noted that my solution was an **extensive an
 
 ### Requirements
 
-Install the required Python dependencies with: `pip install -r requirements.txt`
+This project uses Python 3 and the built-in `sqlite3` module. No additional Python packages are required.
 
 ### Why this project belongs in my portfolio
 
