@@ -1,68 +1,108 @@
 # Ebookstore — SQL Inventory and Menu-Driven Database Application
 
-This project showcases the application of **SQL within a Python program** to manage an ebookstore’s inventory and operations. Completed as part of my data science bootcamp, this task helped me explore how relational databases support real-world workflows — from adding new books to querying existing inventory — and how to integrate SQL logic with Python for a complete solution.
+This project demonstrates the use of **SQL within a Python application** to manage an ebookstore’s inventory and operations. The solution integrates relational database design with Python control flow to support common business tasks such as adding, updating, querying, and deleting inventory records.
 
-I was genuinely excited by the logical elegance of SQL and how database design decisions directly shape query behaviour. The project reflects both this enthusiasm and a disciplined approach to solving a practical problem with code.
+The project reflects both a disciplined approach to problem-solving and a strong appreciation for the **logical elegance of SQL**, particularly in how database design decisions shape query behaviour and system reliability.
 
-![Ornate, multi-level bookstore with carved wooden railings, tall bookshelves filled with books, warm lighting from hanging lanterns, and a grand central staircase leading between floors. The tonal palette is warm and autumnal.](https://github.com/SarennahL-C/pf-ebookstore/blob/a24197d74648de19b3aa32d273e0fa84aad1bd6e/bookstore.jpg?raw=true) 
+![Ornate, multi-level bookstore with carved wooden railings, tall bookshelves filled with books, warm lighting from hanging lanterns, and a grand central staircase leading between floors. The tonal palette is warm and autumnal.](https://github.com/SarennahL-C/pf-ebookstore/blob/a24197d74648de19b3aa32d273e0fa84aad1bd6e/bookstore.jpg?raw=true)
 
-Image cropped from Ivo Rainha https://www.pexels.com/photo/top-view-of-library-with-red-stairs-1261180/.
+<sub>Image cropped from Ivo Rainha, https://www.pexels.com/photo/top-view-of-library-with-red-stairs-1261180/</sub>
 
-### What's in this repository
-- **Python program:** `shelf_track_dec25.py`  
-- **Images:** visuals and reviewer feedback  
+---
 
-### Project Context
+## What’s in this repository
 
-The task was to build a menu-driven program that allows a clerk to:
+- **Python program:** menu-driven inventory system (`shelf_track_dec25.py`)  
+- **Images:** screenshots and reviewer feedback  
 
-- Enter data about new books into the database  
-- Update existing book information  
+---
+
+## Project Context
+
+The task was to build a menu-driven application that allows a store clerk to manage an ebook inventory using a relational database. Core requirements included the ability to:
+
+- Add new books to the database  
+- Update existing book records  
 - Delete books from the system  
-- Search for books based on availability
+- Search for books based on availability  
 
-Beyond the core requirements, I extended the solution so that:
+Beyond the core specification, the solution was extended to handle **author data consistently**, recognising shared authorship across multiple books and maintaining data integrity throughout the system.
 
-- **Author information is handled consistently**, recognising when an author already exists  
-- Authors with multiple books are supported without duplication  
-- Updates to author records propagate correctly across all relevant books
+---
 
-These extensions strengthened the logic of the system and made the experience more realistic.
+## Approach Overview
 
-### Approach and Key Features
+This project combines **SQL database design** with **Python program structure** to create a practical, usable application:
 
-This project combines **SQL database design** with **Python control flow** to build a usable inventory system:
+- A **SQLite database schema** was designed to store books and related author information efficiently  
+- SQL **DDL and DML queries** were used to insert, update, delete, and retrieve records  
+- A **text-based menu interface** drives user interaction and database operations  
+- Author records are reused where appropriate, avoiding duplication and ensuring consistency  
+- Optional sample data loading supports easier testing and demonstration  
 
-- **SQLite database schema:** Designed to store books and related author data efficiently
-- **SQL queries:** Structured DDL and DML statements to insert, update, delete, and read data
-- **Python interface:** A text-based menu system drives user interaction and database operations
-- **Sample data loading:** Optional loading from a correctly formatted file to populate the database
+The application runs directly from the terminal and provides clear prompts for each available action.
 
-The program runs directly from the terminal with a user-friendly prompt for each action.
+---
 
-### Screenshot Gallery
+## Key Features
 
-Here are a few screenshots demonstrating the menu interface and sample outputs:
+- Robust handling of **author–book relationships**  
+- Consistent updates across related records  
+- Clear separation between user interface logic and database operations  
+- Practical application of relational database principles  
+
+---
+
+## Screenshot Gallery
+
+The screenshots below demonstrate the menu interface and example outputs:
 
 ![Bookshelf menu screenshot](./book%20shelf%20menu.jpg)  
 ![Book details screenshot](./book%20shelf%20option%205%20book%20details.jpg)
 
-### Reviewer Feedback
+---
 
-My [reviewer](./SQL%20feedback.jpg) noted that my solution was an **extensive and seamless interpretation of the brief**, with clear logic and thoughtful handling of the requirements. A gentle nudge on PEP8 style was also included — feedback which I’ve taken to heart and continue to apply across my projects.
+## Endorsement
 
-### Skills Demonstrated
+Reviewer feedback described the solution as an **extensive and seamless interpretation of the brief**, highlighting:
 
-- Relational database design with SQL  
+- Clear and logical implementation of requirements  
+- Thoughtful handling of relational data and author consistency  
+- A robust, well-structured approach to integrating SQL with Python  
+
+Minor feedback regarding **PEP8 style conventions** was also provided and has since been incorporated into subsequent projects.
+
+<sub>[View full reviewer feedback](SQL%20feedback.jpg)</sub>
+
+---
+
+## Skills Demonstrated
+
+**Databases**
+- Relational database design  
 - SQL query construction (INSERT, UPDATE, DELETE, SELECT)  
+- Handling foreign key relationships  
+
+**Programming**
 - Python integration with SQLite  
-- Menu-driven user interface design  
-- Handling foreign key relationships and data consistency
+- Menu-driven application design  
+- Control flow and user input handling  
 
-### Requirements
+**Practice**
+- Data consistency and integrity  
+- Translating requirements into a working system  
 
-This project uses Python 3 and the built-in `sqlite3` module. No additional Python packages are required.
+---
 
-### Why this project belongs in my portfolio
+## Requirements
 
-This project demonstrates practical SQL skills beyond single queries — it shows how a database supports a real-world workflow when paired with a controlling application. It also highlights my ability to think about data structure and logic holistically.
+This project uses **Python 3** and the built-in `sqlite3` module.  
+No additional Python packages are required.
+
+---
+
+## Why this project belongs in my portfolio
+
+This project demonstrates practical SQL skills beyond isolated queries, showing how relational databases support real-world workflows when paired with an application layer.
+
+It highlights my ability to think holistically about data structure, system logic, and user interaction, and complements my notebook-based analytical work with a fully programmatic, production-style example.
